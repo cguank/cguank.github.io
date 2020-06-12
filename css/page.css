@@ -223,7 +223,7 @@ body {
   margin: 0;
 }
 body.docs {
-  padding-top: 0;
+  padding-top: 61px;
 }
 @media screen and (max-width: 900px) {
   body.docs {
@@ -948,7 +948,7 @@ ul.demo li {
 }
 .sidebar .sidebar-inner {
   width: 260px;
-  padding: 35px 0px 60px 20px;
+  padding: 20px 0px 60px 20px;
 }
 .sidebar .version-select {
   vertical-align: middle;
@@ -1985,8 +1985,11 @@ ul.demo li {
 .newadd-recommend,
 .newadd-compulsory {
   background: #eaedec;
-  padding: 10px;
+  padding: 20px;
 }
 .newadd-compulsory {
   background: #f7e8e8;
+}
+.a-img-margin img {
+  margin: 10px 0;
 }
